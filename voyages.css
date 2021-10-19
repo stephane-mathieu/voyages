@@ -1,0 +1,271 @@
+            @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+            * {
+                margin: 0px;
+                padding: 0px;
+                /*font-family: Avenir, sans-serif;*/
+            }
+            
+            .navi {
+                width: 100%;
+                margin: 0 auto;
+                background-color: white;
+                position: sticky;
+                top: 0px;
+                z-index: 2;
+                font-family: 'Noto Sans', sans-serif;
+            }
+            
+            .navi ul {
+                list-style-type: none;
+            }
+            
+            .navi ul li {
+                float: left;
+                width: 25%;
+                text-align: center;
+                position: relative;
+            }
+            
+            .navi ul::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            
+            .navi a {
+                display: block;
+                text-decoration: none;
+                color: rgb(56, 54, 54);
+                border-bottom: 2px solid transparent;
+                padding: 10px 0px;
+            }
+            
+            .navi a:hover {
+                color: rgb(187, 146, 108);
+                ;
+                border-bottom: 2px solid rgb(131, 101, 74);
+            }
+            
+            .sous {
+                display: none;
+                box-shadow: 0px 1px 2px #CCC;
+                background-color: rgba(255, 255, 255, 0.582);
+                position: absolute;
+                width: 100%;
+                border-radius: 10px;
+                backdrop-filter: blur(5px);
+            }
+            
+            .navi>ul li:hover .sous {
+                display: block;
+            }
+            
+            .sous li {
+                float: none;
+                width: 100%;
+                text-align: left;
+            }
+            
+            .sous a {
+                padding: 10px;
+                border-bottom: none;
+            }
+            
+            .sous a:hover {
+                border-bottom: none;
+                background-color: RGBa(200, 200, 200, 0.1);
+            }
+            
+            .scrolling>a::after {
+                content: " ▼";
+                font-size: 12px;
+            }
+            
+            .logo {
+                width: 70%;
+                height: 70%;
+            }
+            
+            .container {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                height: 20vh;
+            }
+            
+            .head {
+                width: 100%;
+                position: fixed;
+                z-index: 1;
+                background-color: rgb(104, 82, 61);
+            }
+            
+            .container-logo {
+                width: 200px;
+                display: flex;
+                margin-left: 44%;
+                margin-right: auto;
+                margin-top: 1em;
+            }
+            
+            .container-logo a {
+                width: 100%;
+                height: 100%;
+            }
+            /* ####Header Carousel#### */
+            
+            @keyframes slidy {
+                0% {
+                    left: 0%;
+                }
+                20% {
+                    left: 0%;
+                }
+                25% {
+                    left: -100%;
+                }
+                45% {
+                    left: -100%;
+                }
+                50% {
+                    left: -200%;
+                }
+                70% {
+                    left: -200%;
+                }
+                75% {
+                    left: -300%;
+                }
+                95% {
+                    left: -300%;
+                }
+                100% {
+                    left: -400%;
+                }
+            }
+            
+            .background-accueil {
+                margin: 0;
+                background: #162830
+            }
+            
+            .general-main {
+                display: flex;
+                height: 100vh;
+            }
+            
+            #slider {
+                overflow: hidden;
+                /*height: 350px;*/
+            }
+            
+            #slider figure img {
+                width: 20%;
+                float: left;
+            }
+            
+            #slider figure {
+                position: relative;
+                width: 500%;
+                margin: 0;
+                left: 0;
+                text-align: left;
+                animation: 15s slidy infinite;
+            }
+            
+            .title1 {
+                text-align: center;
+                padding: 25px;
+            }
+            
+            .title1 h1 {
+                font-family: 'Caveat', cursive;
+                letter-spacing: 2px;
+                font-size: 6em;
+                font-weight: normal;
+            }
+            
+            .downtitle {
+                text-align: center;
+                margin-left: 100px;
+                margin-right: 100px;
+                font-family: 'Noto Sans', sans-serif;
+            }
+            
+            .image1 {
+                width: 40%;
+                height: 20%;
+                margin-left: 30%;
+            }
+            
+            .insert-img1 {
+                margin-top: 30px;
+            }
+            /* animation h1 slogan*/
+            
+            .wrapper {
+                padding: 25px;
+                display: flex;
+                font-family: 'Caveat', cursive;
+                letter-spacing: 2px;
+                font-size: 6em;
+                font-weight: normal;
+                justify-content: center;
+            }
+            
+            .wrapper .static-txt {
+                color: rgb(114, 107, 107);
+                font-size: 60px;
+                font-weight: 400;
+            }
+            
+            .wrapper .dynamic-txts {
+                margin-left: 15px;
+                height: 90px;
+                line-height: 90px;
+                overflow: hidden;
+            }
+            
+            .dynamic-txts li {
+                list-style: none;
+                color: rgb(104, 82, 61);
+                font-size: 60px;
+                font-weight: 500;
+                position: relative;
+                top: 0;
+                animation: slide 12s steps(4) infinite;
+                text-align: center;
+            }
+            
+            @keyframes slide {
+                100% {
+                    top: -360px;
+                }
+            }
+            
+            .dynamic-txts li span {
+                position: relative;
+                margin: 5px 0;
+                line-height: 90px;
+            }
+            
+            .dynamic-txts li span::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background-color: white;
+                animation: typing 3s steps(10) infinite;
+            }
+            
+            @keyframes typing {
+                40%,
+                60% {
+                    left: calc(100% + 30px);
+                }
+                100% {
+                    left: 0;
+                }
+            }
