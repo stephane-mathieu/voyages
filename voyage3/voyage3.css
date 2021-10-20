@@ -1,0 +1,180 @@
+.container-general{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   margin-left: 8rem;
+   margin-right: 8rem;
+}
+
+.sidebar{
+    margin-top: 4rem;
+    flex-basis: 25%;       
+}
+
+.sidebar p{
+padding-top: 3.75rem;
+padding-right: 2.5rem;
+padding-left: 2.5rem;
+padding-bottom: .625rem;
+text-align: justify;
+}
+
+.sidebar #cutetinder{
+    color:rgb(172, 14, 33);
+    font-weight: bold;
+}
+
+
+.content{
+    flex-basis: 70%;
+}
+
+.content img {
+    padding-top: 5.875rem;
+z-index: -1;
+width: 100%;
+height: 100%;
+}
+
+
+
+
+
+
+
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 110%;
+    
+}
+
+#slide {
+    position: absolute;
+    right: -106.25rem;
+    width: 50rem;
+    height: 15rem;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 0.5s ;
+}
+
+@-webkit-keyframes slide {
+    100% { right: 0; }
+}
+
+@keyframes slide {
+    100% { right: 0; }
+}
+
+
+
+/* ####PRODUITS##### */
+.produits{
+margin-top: 4rem;
+    }
+    
+    
+    .produits h1{
+        font-family: Gill Sans, sans-serif;
+        letter-spacing: .125rem;
+        text-transform: uppercase;
+        color: rgb(136, 136, 136);
+    }
+    
+    .produits .description-p{
+        height: 18.75rem;
+        width: 100%;
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    }
+    .prod{
+    padding: 1.25rem;
+    }
+    
+    .prod span{
+    color: rgb(184, 180, 69);
+    }
+    
+    
+    .prod h2{
+        color: rgb(172, 14, 33);
+        font-style: italic;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .prod1{
+        
+        grid-column: 1 / 2;
+        grid-row: 1 / 4;  
+        
+        text-align: justify;
+    }
+    
+    .prod2{
+        grid-column: 2 / 3;
+        grid-row: 1 / 4;
+        
+        text-align: justify;
+    }
+    
+    .prod3{
+        grid-column: 3 / 4;
+        grid-row: 1 / 4; 
+     
+        text-align: justify;
+    }
+    
+    
+    /* ####savoirplus#### */
+.savoirplus{
+    flex-basis: 100%;
+    width: 100%;
+    margin-bottom: 1rem;
+    
+}
+
+.savoirplus-p{
+    padding-right: 300px;
+}
+
+.savoirplus-p h2{
+    padding-top: 1rem;
+margin-left: 16px;
+}
+
+
+
+
+.savoirplus-p p{
+    margin-left: 16px;
+    text-align: justify;
+}
+
+.savoirplus h1{
+    font-family: Gill Sans, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgb(136, 136, 136);
+}
+
+.savoirplus .savoirplus-p h2{
+
+    color:rgb(172, 14, 33);
+} 
+
+.savoirplus .savoirplus-p span{
+    color: rgb(184, 180, 69);
+}
