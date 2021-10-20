@@ -3,22 +3,30 @@
 .section_team {
     display: flex;
     justify-content: space-evenly;
-    height: 40vh;
+    height: 50vh;
     font-family: 'Noto Sans', sans-serif;
 }
 
 .s1_d3 {
-    border: solid 2px rgb(235, 229, 229);
+    
     width: 25%;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     text-align: center;
-    background-color: rgba(155, 94, 41, 0.404);
-    padding-bottom: 25px;
+    background-color: rgba(182, 111, 48, 0.035);
+    padding-bottom: 1.5625rem;
     display: flex;
     flex-direction: column;
     align-self: center;
-    row-gap: 30px;
+    row-gap: 0.9375rem;
+    height: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
+
+.s1_d3 .first-txt{
+   text-align: left;
+ }
+
 
 a:link {
     text-decoration: none;
@@ -31,8 +39,8 @@ a:link {
 .popup_page {
     color: rgb(89, 112, 121);
     background-color: white;
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 0.3125rem;
+    padding: 0.625rem;
     text-transform: uppercase;
 }
 
@@ -54,14 +62,14 @@ a:link {
     visibility: visible;
     opacity: 1;
 }
-
+    
 .modal_content {
     background-color: white;
     padding: 1.5em 2em;
     width: 60%;
     height: 50%;
     max-width: 90%;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     position: relative;
     margin-top: 40vh;
 }
@@ -70,12 +78,14 @@ a:link {
     margin-bottom: 2%;
 }
 
+
+
 .modal_close {
     position: absolute;
     right: 0px;
     top: 0px;
     color: grey;
-    padding: 15px;
+    padding: 0.9375rem;
 }
 
 .japon_modale {
@@ -85,17 +95,17 @@ a:link {
 
 .image_japon {
     width: 30%;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .image_section_team {
-    border-radius: 100px;
-    margin-top: 19px;
+    border-radius: 6.25rem;
+    margin-top: 1.1875rem;
     align-self: center;
 }
 
 .text_modale {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     text-align: left;
     width: 60%;
     font-family: 'Noto Sans', sans-serif;
