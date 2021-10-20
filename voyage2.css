@@ -642,6 +642,11 @@ a:link {
 
 /* section perso */
 
+.text_head {
+    text-align: center;
+    margin: 1em;
+}
+
 .section_1k {
     background-color: thistle;
     border: solid 1px gray;
