@@ -35,7 +35,7 @@
     .title-article2 {
         font-family: 'Caveat', cursive;
         margin-top: 1%;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
     
     .flex-dd {
@@ -101,6 +101,12 @@
         margin-top: 3rem;
     }
     
+    .hello:hover {
+        transition: 0.5 ease;
+        cursor: pointer;
+        transform: scale(1.2);
+    }
+    
     .modal_close01 {
         position: absolute;
         right: 0px;
@@ -134,4 +140,11 @@
     h2 {
         margin-bottom: 2%;
         text-align: center;
+    }
+    
+    .text_modale01 {
+        text-align: left;
+        margin-top: 1.25rem;
+        width: 60%;
+        font-family: 'Noto Sans', sans-serif;
     }
