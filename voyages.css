@@ -6,6 +6,7 @@
                 /*font-family: Avenir, sans-serif;*/
             }
             
+            
             .navi {
                 width: 100%;
                 margin: 0 auto;
@@ -161,7 +162,6 @@
             
             #slider {
                 overflow: hidden;
-                /*height: 350px;*/
             }
             
             #slider figure img {
