@@ -1,0 +1,154 @@
+    @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+    .first-text {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 1%;
+        padding: 1%;
+    }
+    
+    .title-vietnam {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 2rem;
+    }
+    
+    .title-vietnam2 {
+        font-family: 'Caveat', cursive;
+        margin-top: 1%;
+        font-size: 1.7rem;
+    }
+    
+    .second-text {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 1%;
+        padding: 1%;
+    }
+    
+    .title-article {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 2rem;
+    }
+    
+    .title-article2 {
+        font-family: 'Caveat', cursive;
+        margin-top: 1%;
+        font-size: 1.7rem;
+    }
+    
+    .flex-dd {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    
+    .living {
+        display: flex;
+        flex-direction: column;
+        width: 20rem;
+        height: 50rem;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    
+    .regroup-artcl {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        gap: 3rem;
+    }
+    
+    .living h4 {
+        padding: 1.5rem;
+    }
+    
+    .living p {
+        padding-right: 1rem;
+        padding-left: 1rem;
+        text-align: left;
+    }
+    
+    .popup_page-V {
+        border-radius: 0.3125rem;
+        padding: 0.5rem;
+        text-transform: uppercase;
+        margin-left: 6rem;
+        margin-top: 10rem;
+    }
+    
+    .popup_page_v {
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+  
+    }
+
+    
+    .popup_page_v:target {
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .hello {
+        margin-top: 3rem;
+    }
+    
+
+
+    .hello:hover {
+        transition: 0.5 ease;
+        cursor: pointer;
+        transform: scale(1.2);
+    }
+    
+    .modal_close01 {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        color: grey;
+        padding: 0.9375rem;
+    }
+    
+    .japon_modale01 {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .image_japon01 {
+        width: 30%;
+        margin-top: 1.25rem;
+    }
+    
+    .modal_content01 {
+        background-color: white;
+        padding: 1.5em 2em;
+        width: 60%;
+        height: 50%;
+        max-width: 90%;
+        border-radius: 0.3125rem;
+        position: relative;
+        margin-top: 40vh;
+    }
+    
+    .modal_content01 p,
+    h2 {
+        margin-bottom: 2%;
+        text-align: center;
+    }
+    
+    .text_modale01 {
+        text-align: left;
+        margin-top: 1.25rem;
+        width: 60%;
+        font-family: 'Noto Sans', sans-serif;
+    }
