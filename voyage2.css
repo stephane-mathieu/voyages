@@ -622,10 +622,7 @@ a:link {
 
 /* section perso */
 
-.section_1k {
-    background-color: thistle;
-    border: solid 1px gray
-}
+
 
 .section_1_div_1_japon {
     display: flex;
@@ -648,9 +645,8 @@ a:link {
 }
 
 .section_1k {
-    background-color: thistle;
-    border: solid 1px gray;
-    border-radius: 10px;
+    margin-bottom: 3em;
+    
     
 }
 
