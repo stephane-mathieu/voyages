@@ -1,0 +1,51 @@
+/* section perso */
+
+.text_head {
+    text-align: center;
+    margin: 1em;
+}
+
+.section_one_k {
+    margin-bottom: 3em;
+    
+    
+}
+
+.section_1_div_1_japon {
+    display: flex;
+}
+
+.image_byodo {
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.text_1_japon {
+    text-align: left;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.title_byodo {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.temple {
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-top: 1em;
+}
+
+.bloc_temple {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.section_bloc_temple {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
